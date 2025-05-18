@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Decentralized_File_Sharing/static/js/main.54f1f8ed.js",
+    "static/js/453.258b012d.chunk.js": "/Decentralized_File_Sharing/static/js/453.258b012d.chunk.js",
+    "index.html": "/Decentralized_File_Sharing/index.html",
+    "main.54f1f8ed.js.map": "/Decentralized_File_Sharing/static/js/main.54f1f8ed.js.map",
+    "453.258b012d.chunk.js.map": "/Decentralized_File_Sharing/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.54f1f8ed.js"
+  ]
+}
