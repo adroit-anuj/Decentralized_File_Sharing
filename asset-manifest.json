@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Decentralized_File_Sharing/static/js/main.f5170f29.js",
+    "main.js": "/Decentralized_File_Sharing/static/js/main.d4a5ddcf.js",
     "static/js/453.258b012d.chunk.js": "/Decentralized_File_Sharing/static/js/453.258b012d.chunk.js",
     "index.html": "/Decentralized_File_Sharing/index.html",
-    "main.f5170f29.js.map": "/Decentralized_File_Sharing/static/js/main.f5170f29.js.map",
+    "main.d4a5ddcf.js.map": "/Decentralized_File_Sharing/static/js/main.d4a5ddcf.js.map",
     "453.258b012d.chunk.js.map": "/Decentralized_File_Sharing/static/js/453.258b012d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f5170f29.js"
+    "static/js/main.d4a5ddcf.js"
   ]
 }
