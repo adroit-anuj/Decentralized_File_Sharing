@@ -4,8 +4,8 @@ const socketIo = require('socket.io');
 
 // Function to generate a random room ID between 8 and 15 characters
 const generateShortRoomId = () => {
-  const chars = 'abcdefghijklmnopqrstuvwxyz0123456789';
-  const length = Math.floor(Math.random() * (15 - 8 + 1)) + 8;
+  const chars = 'ABCDeFghiJKLmnoPQRstUvWxYzZ012357';
+  const length = Math.floor(Math.random() * (10 - 8 + 1)) + 8;
   let roomId = '';
   for (let i = 0; i < length; i++) {
     roomId += chars.charAt(Math.floor(Math.random() * chars.length));
