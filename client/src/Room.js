@@ -9,13 +9,7 @@ import ProgressBar from './components/ProgressBar';
 import ChatBox from './components/ChatBox';
 import Notifications from './components/Notifications';
 
-// Use localhost for local testing
-const socket = io('http://localhost:5000', {
-  transports: ['websocket'],
-  reconnection: true,
-  reconnectionAttempts: 5,
-  reconnectionDelay: 1000,
-});
+const socket = io('https://your-app.onrender.com', { transports: ['websocket'] });
 
 // Simple MIME type mapping based on extension
 const getMimeType = (filename) => {
