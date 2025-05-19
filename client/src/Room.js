@@ -9,7 +9,7 @@ import ProgressBar from './components/ProgressBar';
 import ChatBox from './components/ChatBox';
 import Notifications from './components/Notifications';
 
-const socket = io('https://your-app.onrender.com', { transports: ['websocket'] });
+const socket = io('https://sharemesh.onrender.com', { transports: ['websocket'] });
 
 // Simple MIME type mapping based on extension
 const getMimeType = (filename) => {
