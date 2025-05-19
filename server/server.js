@@ -48,7 +48,12 @@ const generateUserName = (assignedNames) => {
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server, { cors: { origin: 'https://adroit-anuj.github.io/Decentralized_File_Sharing' } });
+const io = socketIo(server, {
+  cors: {
+    origin: 'https://adroit-anuj.github.io',
+    methods: ['GET', 'POST'],
+  },
+});
 
 const roomSizes = {};
 const userNames = new Map();
@@ -113,6 +118,6 @@ io.on('connection', (socket) => {
 });
 
 const port = process.env.PORT || 5000;
-const io = require('socket.io')(port, {
-  cors: { origin: '*', methods: ['GET', 'POST'] },
+server.listen(port, () => {
+  console.log(`Socket.io server running on port ${port}`);
 });
