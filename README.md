@@ -35,13 +35,11 @@ Interface is intentionally kept simple and fast, keeping distractions out of the
 ### Frontend  
 - React  
 - Socket.IO Client  
-- Simple-Peer (WebRTC)  
 - CryptoJS (AES encryption)
 
 ### Backend  
 
 - Node.js  
-- Express  
 - Socket.IO
 
 ---
