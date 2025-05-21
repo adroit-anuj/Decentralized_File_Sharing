@@ -141,7 +141,7 @@ Found a bug or got an idea? Create a new issue [here](https://github.com/adroit-
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. See the [`LICENSE`](LICENSE) file for full details.<br><br>
+This project is licensed under the **MIT License**. See the [`License`](License) file for full details.<br><br>
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./License)
 
 ---
